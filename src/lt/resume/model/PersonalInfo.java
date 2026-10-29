@@ -14,4 +14,24 @@ public class PersonalInfo {
         this.city = city;
         this.summary = summary;
     }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
 }
